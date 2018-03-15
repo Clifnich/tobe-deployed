@@ -2,7 +2,7 @@
 
 set -xe
 
-name=`cat ./app-name/name.txt'
+name=`cat ./app-name/name.txt`
 
 mv ./repo/$name.war ./prepare-manifest/todo.war
 
