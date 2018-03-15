@@ -10,3 +10,4 @@ sed "s/APPNAME/$name/g" ./repo/manifest.yml > ./prepare-manifest/manifest.yml
 
 ls repo
 ls prepare-manifest
+cat prepare-manifest/manifest.yml
