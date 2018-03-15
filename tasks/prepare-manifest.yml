@@ -13,4 +13,5 @@ outputs:
 - name: prepare-manifest
 
 run:
-  path: repo/tasks/prepare-manifest.sh
+  path: sh
+  args: [repo/tasks/prepare-manifest.sh]

@@ -12,4 +12,5 @@ outputs:
 - name: app-name
 
 run:
-  path: repo/tasks/get-app-name.sh
+  path: sh
+  args: [repo/tasks/get-app-name.sh]
